@@ -21,7 +21,7 @@ export default function Hero() {
           <li><a href="#contact">Contact</a></li>
         </ul>
         <a href="mailto:hendrik.metsallik@gmail.com" className={styles.navCta}>
-          Hire me
+          Contact me
         </a>
       </nav>
 
