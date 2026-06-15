@@ -28,7 +28,7 @@ export default function Hero() {
       {/* Main content */}
       <div className={styles.content}>
         <p className={`${styles.eyebrow} fade-up fade-up-1`}>
-          Available now · Sydney, Australia
+          Available now · Perth, Australia
         </p>
 
         <h1 className={styles.headline}>
