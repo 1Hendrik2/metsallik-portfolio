@@ -1,0 +1,100 @@
+.section {
+  background: linear-gradient(135deg, #0A1520 0%, #0D1B2A 60%, #112236 100%);
+  padding: 6rem 0 0;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+.inner {
+  padding: 0 clamp(1.5rem, 5vw, 5rem) 5rem;
+  flex: 1;
+  position: relative;
+  z-index: 2;
+}
+
+.label {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-family: var(--font-display);
+  font-size: clamp(3.5rem, 10vw, 9rem);
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  line-height: 0.95;
+  color: var(--text);
+  margin-bottom: 2.5rem;
+}
+
+.titleAccent { color: var(--accent); }
+
+.sub {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  color: var(--muted);
+  max-width: 520px;
+  line-height: 1.7;
+  margin-bottom: 3rem;
+}
+
+.emailBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-family: var(--font-display);
+  font-size: clamp(1rem, 2.5vw, 1.4rem);
+  font-weight: 600;
+  color: var(--text);
+  border-bottom: 2px solid var(--accent);
+  padding-bottom: 0.3rem;
+  transition: color 0.2s;
+  margin-bottom: 3rem;
+}
+.emailBtn:hover { color: var(--accent); }
+
+.arrow { font-size: 1.2em; transition: transform 0.2s; }
+.emailBtn:hover .arrow { transform: translate(3px, -3px); }
+
+.links { display: flex; gap: 2.5rem; flex-wrap: wrap; }
+
+.link {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+  transition: color 0.2s;
+}
+.link:hover { color: var(--accent); }
+
+.footer {
+  border-top: 1px solid var(--border);
+  padding: 1.5rem clamp(1.5rem, 5vw, 5rem);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  position: relative;
+  z-index: 2;
+}
+
+.footerName {
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.footerNote {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  color: var(--accent-dim);
+  letter-spacing: 0.04em;
+}

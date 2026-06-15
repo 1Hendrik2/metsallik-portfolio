@@ -1,0 +1,118 @@
+.section {
+  background: var(--bg-2);
+  padding-bottom: 6rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.ticker {
+  width: 100%;
+  overflow: hidden;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  padding: 1rem 0;
+  margin-bottom: 5rem;
+  background: var(--bg-3);
+}
+
+.tickerInner {
+  display: flex;
+  width: max-content;
+  animation: ticker 30s linear infinite;
+}
+
+.tickerItem {
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  padding: 0 1.5rem;
+  white-space: nowrap;
+  transition: color 0.2s;
+}
+.tickerItem:hover { color: var(--accent); }
+
+.tickerDot {
+  color: var(--accent);
+  font-size: 0.5rem;
+  vertical-align: middle;
+  margin-left: 1.5rem;
+}
+
+.inner { padding: 0 clamp(1.5rem, 5vw, 5rem); }
+
+.header { margin-bottom: 3.5rem; }
+
+.label {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 0.75rem;
+}
+
+.title {
+  font-family: var(--font-display);
+  font-size: clamp(2.5rem, 6vw, 5rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1;
+  color: var(--text);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 2.5rem;
+}
+
+.group {
+  border-top: 1px solid var(--border);
+  padding-top: 1.25rem;
+  position: relative;
+}
+
+.group::before {
+  content: '';
+  position: absolute;
+  top: -1px;
+  left: 0;
+  width: 2.5rem;
+  height: 2px;
+  background: var(--accent);
+}
+
+.groupLabel {
+  font-family: var(--font-display);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 1rem;
+}
+
+.groupItems { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+
+.groupItem {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  color: var(--muted);
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  transition: color 0.2s;
+}
+.groupItem:hover { color: var(--text); }
+
+.dot {
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--accent);
+  flex-shrink: 0;
+}
