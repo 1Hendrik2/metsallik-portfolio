@@ -47,14 +47,14 @@ export default function Hero() {
 
         <div className={`${styles.actions} fade-up fade-up-5`}>
           <a href="#experience" className={styles.btnPrimary}>View my work</a>
-          <a href="/Hendrik_Metsallik_CV.pdf" className={styles.btnGhost} download>
+          <a href="/Hendrik_Metsallik_CV.pdf" className={styles.btnGhost} download="Hendrik_Metsallik_CV.pdf">
             Download CV
           </a>
         </div>
       </div>
 
       <div className={styles.cornerLabel} aria-hidden="true">
-        <span>EST · 2021</span>
+        <span>EST · 2018</span>
         <span>4+ YRS XP</span>
       </div>
 

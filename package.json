@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "sync:cv": "node -e \"require('fs').copyFileSync('src/assets/Hendrik_Metsallik_CV.pdf','public/Hendrik_Metsallik_CV.pdf')\"",
+    "prebuild": "npm run sync:cv",
+    "predev": "npm run sync:cv",
     "build": "next build",
     "dev": "next dev",
     "start": "next start",

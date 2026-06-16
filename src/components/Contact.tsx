@@ -30,13 +30,13 @@ export default function Contact() {
         </div>
         <div className={styles.links}>
           <a href="https://linkedin.com/in/hendrik-metsallik-8641a8235" target="_blank" rel="noopener noreferrer" className={styles.link}>LinkedIn ↗</a>
-          <a href="https://github.com/hendrik-metsallik" target="_blank" rel="noopener noreferrer" className={styles.link}>GitHub ↗</a>
+          <a href="https://github.com/1Hendrik2" target="_blank" rel="noopener noreferrer" className={styles.link}>GitHub ↗</a>
           <a href="tel:+61493540525" className={styles.link}>+61 493 540 525</a>
         </div>
       </div>
       <footer className={styles.footer}>
         <span className={styles.footerName}>Hendrik Metsallik</span>
-        <span className={styles.footerNote}>Built with Next.js · Sydney, Australia · {new Date().getFullYear()}</span>
+        <span className={styles.footerNote}>Built with Next.js · Perth, Australia · {new Date().getFullYear()}</span>
       </footer>
     </section>
   );

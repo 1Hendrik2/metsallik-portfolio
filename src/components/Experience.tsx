@@ -7,14 +7,16 @@ const JOBS = [
     title: "Full-Stack Software Developer",
     company: "Net Group OÜ",
     location: "Tallinn, Estonia",
-    period: "Jan 2024 — May 2026",
+    period: "Jan 2024 — Feb 2026",
     stack: ["React", "TypeScript", "ASP.NET Core", ".NET", "SQL Server", "GitHub Actions"],
     highlights: [
-      "Built and maintained a business portal serving 10,000+ users — React (TypeScript) frontend with ASP.NET Core backend",
-      "Integrated third-party payment processing APIs, improving checkout reliability and reducing failed transactions",
-      "Delivered 15+ features end-to-end across full stack in 2-week Agile sprints",
-      "Set up CI/CD pipelines via GitHub Actions, cutting release cycles from weekly to daily",
-      "Conducted code reviews for a team of 5, catching a critical authentication vulnerability before production",
+      "Developed and maintained a customer-facing business portal using React (TypeScript) and ASP.NET Core, achieving sub-200ms API response times",
+      "Designed and integrated third-party payment processing APIs (Stripe, Montonio), reducing failed transactions by standardising input validation and error handling flows",
+      "Delivered 15+ product features end-to-end across full stack — from UI design to backend APIs to database migrations — in 2-week Agile sprints",
+      "Set up and maintained CI/CD pipelines (GitHub Actions) for automated testing and deployment, cutting release cycle from weekly to daily",
+      "Developed frontend features for a separate Next.js application, building reusable components and integrating with backend REST APIs",
+      "Conducted code reviews for a team of 5 developers; identified and resolved critical security vulnerability in authentication flow",
+      "Collaborated with product managers, designers, and QA engineers in daily standups, sprint planning, and retrospectives"
     ],
   },
   {
@@ -22,13 +24,13 @@ const JOBS = [
     title: "E-Commerce Specialist / Frontend Developer",
     company: "Multon Developments OÜ",
     location: "Estonia",
-    period: "Mar 2022 — Dec 2023",
+    period: "Jun 2022 — Mar 2024",
     stack: ["Magento 2", "JavaScript", "HTML/CSS", "PHP", "MySQL"],
     highlights: [
-      "Managed Magento 2 e-commerce platforms processing 500+ orders/month with 99.9% uptime",
-      "Implemented responsive UI components and UX improvements that reduced mobile bounce rate by 18%",
-      "Integrated payment gateways and third-party plugins, expanding checkout methods from 2 to 5",
-      "Administered content and configuration across 3 client storefronts simultaneously",
+      "Managed and enhanced Magento 2 e-commerce platforms processing 500+ orders per month, maintaining 99.9% uptime",
+      "Implemented responsive frontend components and UI/UX improvements to enhance the mobile user experience",
+      "Integrated third-party plugins and payment gateways, expanding available checkout methods",
+      "Performed website administration, content management, and performance optimisation across 3 client storefronts",
     ],
   },
   {
@@ -36,12 +38,12 @@ const JOBS = [
     title: "Full-Stack Developer",
     company: "OÜ Abtram29",
     location: "Estonia",
-    period: "2021 — Mar 2022",
+    period: "Jun 2021 — Oct 2021",
     stack: ["React.js", "Java", "JavaScript"],
     highlights: [
-      "Developed React.js web applications from concept through to deployment for internal business tooling",
-      "Built an OTP authentication system in Java, securing accounts for 2,000+ users",
-      "Participated in the full feature lifecycle: requirements, coding, unit testing, and release",
+      "Built React.js web applications from concept to deployment for internal business tooling",
+      "Developed a one-time password (OTP) authentication system in Java to enhance account security",
+      "Participated in full feature development lifecycle: requirements gathering, coding, unit testing, and deployment",
     ],
   },
 ];
@@ -59,7 +61,7 @@ export default function Experience() {
       <div className={styles.inner}>
         <div className={styles.header}>
           <p className={styles.label}>03 / Experience</p>
-          <h2 className={styles.title}>Where I&apos;ve shipped</h2>
+          <h2 className={styles.title}>Where I&apos;ve worked</h2>
         </div>
         <div className={styles.jobs}>
           {JOBS.map((job, idx) => (
