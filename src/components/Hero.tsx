@@ -28,7 +28,7 @@ export default function Hero() {
       {/* Main content */}
       <div className={styles.content}>
         <p className={`${styles.eyebrow} fade-up fade-up-1`}>
-          Available now · Perth, Australia
+          Available now · Open to opportunities across Australia
         </p>
 
         <h1 className={styles.headline}>
@@ -56,11 +56,6 @@ export default function Hero() {
       <div className={styles.cornerLabel} aria-hidden="true">
         <span>EST · 2018</span>
         <span>4+ YRS XP</span>
-      </div>
-
-      <div className={`${styles.scrollHint} fade-up fade-up-5`}>
-        <span className={styles.scrollLine} />
-        <span>scroll</span>
       </div>
     </section>
   );
