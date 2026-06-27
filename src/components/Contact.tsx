@@ -18,9 +18,7 @@ export default function Contact() {
           <span className={styles.titleAccent}>something.</span>
         </h2>
         <p className={styles.sub}>
-          Actively looking for mid-level full-stack roles in Australia.
-          On a 417 Working Holiday Visa — available to start immediately,
-          open to 482 sponsorship.
+          Actively looking for mid-level full-stack roles all over the world.
         </p>
         <div className={styles.actions}>
           <a href="mailto:hendrik.metsallik@gmail.com" className={styles.emailBtn}>
@@ -36,7 +34,7 @@ export default function Contact() {
       </div>
       <footer className={styles.footer}>
         <span className={styles.footerName}>Hendrik Metsallik</span>
-        <span className={styles.footerNote}>Built with Next.js · Perth, Australia · {new Date().getFullYear()}</span>
+        <span className={styles.footerNote}>Built with Next.js · Tallinn, Estonia · {new Date().getFullYear()}</span>
       </footer>
     </section>
   );

@@ -18,10 +18,10 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Hendrik Metsallik — Full-Stack Developer",
   description:
-    "Full-stack software developer with 4+ years experience in React, TypeScript, and .NET. Based in Sydney, Australia.",
+    "Full-stack software developer with 4+ years experience in React, TypeScript, and .NET.",
   openGraph: {
     title: "Hendrik Metsallik — Full-Stack Developer",
-    description: "React · TypeScript · .NET · Based in Sydney, Australia",
+    description: "React · TypeScript · .NET",
     type: "website",
   },
 };

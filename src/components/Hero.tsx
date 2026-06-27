@@ -28,7 +28,7 @@ export default function Hero() {
       {/* Main content */}
       <div className={styles.content}>
         <p className={`${styles.eyebrow} fade-up fade-up-1`}>
-          Available now · Open to opportunities across Australia
+          Available now
         </p>
 
         <h1 className={styles.headline}>
