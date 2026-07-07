@@ -18,7 +18,7 @@ export default function Contact() {
           <span className={styles.titleAccent}>something.</span>
         </h2>
         <p className={styles.sub}>
-          Actively looking for mid-level full-stack roles all over the world.
+          Actively looking for mid-level full-stack roles.
         </p>
         <div className={styles.actions}>
           <a href="mailto:hendrik.metsallik@gmail.com" className={styles.emailBtn}>
